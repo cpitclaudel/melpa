@@ -1,0 +1,7 @@
+(proof-general
+ :repo "ProofGeneral/PG"
+ :fetcher github
+ :branch "elpa"
+ :files (:defaults ("contrib" ("mmm" "contrib/mmm/*"))
+                   "doc" "generic" "images" "lib"
+                   "coq" "easycrypt" "pghaskell" "pgocaml" "pgshell"))
